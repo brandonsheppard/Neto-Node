@@ -1,0 +1,27 @@
+{
+  "name": "neto-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonsheppard/Neto-Node.git"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "keywords": [
+    "neto",
+    "node",
+    "api"
+  ],
+  "author": "Brandon Sheppard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonsheppard/Neto-Node/issues"
+  },
+  "homepage": "https://github.com/brandonsheppard/Neto-Node#readme"
+}
