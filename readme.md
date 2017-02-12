@@ -5,8 +5,8 @@ This is a node API wrapper for Neto's API.
 ## Example
 
 ```
-const Neto = require('neto-node');
-const api = new Neto({ uri: 'https://mysite.neto.com.au', api_key: 'api_key'});
+const Neto = require('netoNode');
+const api = new netoNode({ uri: 'https://mysite.neto.com.au', api_key: 'api_key'});
 
 let content = {
 	"Item": [ {

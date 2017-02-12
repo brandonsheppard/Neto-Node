@@ -12,12 +12,12 @@ var success = function(body) {
 	return body.Ack && body.Ack == 'Success';
 }
 
-var Neto = function(options) {
+var netoNode = function(options) {
 	this.uri = options.uri.replace(/\/$/, "") + '/do/WS/NetoAPI';
 	this.api_key = options.api_key;
 };
 
-neto.prototype = {
+netoNode.prototype = {
 	_headers: function(action) {
 		return {
 			'Accept': 'application/json',
@@ -157,4 +157,4 @@ neto.prototype = {
 	}
 }
 
-module.exports = neto;
+module.exports = netoNode;
